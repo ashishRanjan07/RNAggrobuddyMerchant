@@ -3,7 +3,7 @@ import React from 'react';
 import {responsive} from '../utils/Responsive';
 import {AppColor} from '../theme/AppColor';
 
-const TextInputBox = ({label,value, onChangeText,keyboardType}) => {
+const TextInputBox = ({label,value, onChangeText,keyboardType,maxLength,secureTextEntry}) => {
   return (
     <View style={styles.main}>
       <Text style={styles.label}>{label}</Text>
@@ -15,6 +15,8 @@ const TextInputBox = ({label,value, onChangeText,keyboardType}) => {
         value={value}
         onChangeText={onChangeText}
         multiline={label==='Address'?true:false}
+        maxLength={maxLength}
+        secureTextEntry={secureTextEntry}
       />
     </View>
   );

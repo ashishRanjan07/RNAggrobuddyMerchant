@@ -7,11 +7,20 @@ import Title from '../../components/Title';
 import SubTitle from '../../components/SubTitle';
 import CustomButton from '../../components/CustomButton';
 import DeviceInfo from 'react-native-device-info';
+import { useNavigation } from '@react-navigation/native';
 
 const Splash = () => {
+  const navigation  = useNavigation();
+  const handleButtonRegistration =() => {
+    navigation.navigate('Registration')
+  }
+const handleButtonLogin  = () => {
+  navigation.navigate('Login')
+}
+  
   return (
     <View style={styles.main}>
-      <StatusBar backgroundColor={AppColor.C1} barStyle={'dark-content'} />
+      <StatusBar backgroundColor={AppColor.background} barStyle={'dark-content'} />
       <Image
         source={ImagePath.logo}
         resizeMode="cover"
@@ -24,11 +33,13 @@ const Splash = () => {
           title={'Registration'}
           backgroundColor={AppColor.C3}
           textColor={AppColor.black}
+          handleAction={handleButtonRegistration}
         />
         <CustomButton
           title={'Login'}
           backgroundColor={AppColor.green}
           textColor={AppColor.white}
+          handleAction={handleButtonLogin}
         />
       </View>
       <View style={styles.appVersionHolder}>
