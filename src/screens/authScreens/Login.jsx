@@ -194,7 +194,7 @@ const Login = () => {
       'Login Successful',
       'You have logged in successfully.',
     );
-    navigation.goBack();
+    navigation.navigate('AppStack');
   };
 
   return (
