@@ -1,15 +1,16 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
-import Splash from './src/screens/authScreens/Splash'
-import Registration from './src/screens/authScreens/Registration'
-
+import {StyleSheet, Text, View} from 'react-native';
+import React from 'react';
+import AuthStack from './src/navigation/stackNavigation/authStackNavigation/AuthStack';
+import Toast from 'react-native-toast-message';
 const App = () => {
   return (
-  //  <Splash/>
-  <Registration/>
-  )
-}
+    <View style={{ flex: 1 }}>
+    <AuthStack />
+    <Toast />
+  </View>
+  );
+};
 
-export default App
+export default App;
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({});
