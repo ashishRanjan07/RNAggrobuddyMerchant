@@ -177,8 +177,6 @@ const Login = () => {
       );
       return;
     }
-
-    // Password Validation
     if (password.trim() === '') {
       showToast('error', 'Password Required', 'Please enter your password.');
       return;
@@ -191,8 +189,6 @@ const Login = () => {
       );
       return;
     }
-
-    // Successful Login (Placeholder Logic)
     showToast(
       'success',
       'Login Successful',
@@ -242,6 +238,7 @@ const Login = () => {
           <Text style={styles.text}>Create Account</Text>
         </TouchableOpacity>
         <TouchableOpacity
+          onPress={() => navigation.navigate('Forget Password')}
           style={[
             styles.forgetPasswordHolder,
             {borderColor: 'red', marginTop: responsive(10)},
