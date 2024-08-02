@@ -12,17 +12,13 @@ import {useNavigation} from '@react-navigation/native';
 import CustomHeader from '../../components/CustomHeader';
 
 const Home = () => {
-  const navigation = useNavigation();
-  const handleOpen = () => {
-    navigation.openDrawer();
-  };
   return (
     <View style={styles.main}>
       <StatusBar
         barStyle={'dark-content'}
         backgroundColor={AppColor.background}
       />
-      <CustomHeader title={"Home"}/>
+      <CustomHeader title={'Home'} />
     </View>
   );
 };

@@ -10,6 +10,7 @@ import {AppColor} from '../../theme/AppColor';
 import AntDesign from 'react-native-vector-icons/AntDesign';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
+import Farmer from '../../screens/appScreen/Farmer';
 const Tab = createMaterialBottomTabNavigator();
 const BottomNavigation = () => {
   return (
@@ -28,6 +29,20 @@ const BottomNavigation = () => {
           tabBarIcon: ({color}) => (
             <AntDesign
               name="home"
+              size={responsive(24)}
+              color={AppColor.black}
+            />
+          ),
+        }}
+      />
+      <Tab.Screen
+        name="Farmer"
+        component={Farmer}
+        options={{
+          tabBarLabel: 'Farmer',
+          tabBarIcon: ({color}) => (
+            <FontAwesome5
+              name="tractor"
               size={responsive(24)}
               color={AppColor.black}
             />
@@ -84,7 +99,7 @@ export default BottomNavigation;
 
 const styles = StyleSheet.create({
   main: {
-    backgroundColor: AppColor.C4,
+    backgroundColor: AppColor.white,
     width: responsive(40),
     height: responsive(40),
     borderRadius: responsive(10),
