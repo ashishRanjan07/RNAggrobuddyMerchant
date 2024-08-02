@@ -4,6 +4,7 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import DrawerNavigation from '../../drawerNavigation/DrawerNavigation';
 import Notification from '../../../screens/appScreen/Notification';
 import FarmerProductDetails from '../../../screens/appScreen/FarmerProductDetails';
+import HireWorkerDetails from '../../../screens/appScreen/HireWorkerDetails';
 
 const Stack = createNativeStackNavigator();
 
@@ -23,6 +24,11 @@ const AppStack = () => {
       <Stack.Screen
         name="Product Details"
         component={FarmerProductDetails}
+        options={{headerShown: false}}
+      />
+       <Stack.Screen
+        name="Hire Worker Details"
+        component={HireWorkerDetails}
         options={{headerShown: false}}
       />
     </Stack.Navigator>

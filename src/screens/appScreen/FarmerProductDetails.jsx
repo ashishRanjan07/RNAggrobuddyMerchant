@@ -141,16 +141,14 @@ const FarmerProductDetails = ({route}) => {
                     <Text style={styles.mobileNumber}>{offerThird}</Text>
                   </TouchableOpacity>
                 </View>
-                {
-                  offerPrice.length() >=0 &&(
-                <CustomButton
-                  title={'Offer'}
-                  backgroundColor={AppColor.C4}
-                  textColor={AppColor.white}
-                  handleAction={handleSubmitOffer}
-                />
-              )
-            }
+                {offerPrice.length >0 && (
+                  <CustomButton
+                    title={'Offer'}
+                    backgroundColor={AppColor.C4}
+                    textColor={AppColor.white}
+                    handleAction={handleSubmitOffer}
+                  />
+                )}
               </View>
             )}
           </View>
