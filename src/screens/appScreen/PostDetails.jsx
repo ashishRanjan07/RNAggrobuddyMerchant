@@ -15,7 +15,7 @@ import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityI
 
 const PostDetails = ({route}) => {
   const {item} = route.params;
-//   console.log(item, 'Line 5');
+  //   console.log(item, 'Line 5');
   const [like, setLike] = useState(false);
 
   return (
@@ -55,42 +55,41 @@ const PostDetails = ({route}) => {
         <View style={styles.detailsHolder}>
           <Text style={styles.authorText}>Author : - {item.author} </Text>
         </View>
-        
       </ScrollView>
       <View style={styles.socialMediaHolder}>
-          <MaterialCommunityIcons
-            name="whatsapp"
-            size={responsive(40)}
-            color={AppColor.C4}
-          />
-          <MaterialCommunityIcons
-            name="android-messages"
-            size={responsive(40)}
-            color={AppColor.C4}
-          />
-          <MaterialCommunityIcons
-            name="linkedin"
-            size={responsive(40)}
-            color={AppColor.C4}
-          />
-        </View>
-        <View style={styles.socialMediaHolder2}>
-          <MaterialCommunityIcons
-            name="facebook"
-            size={responsive(40)}
-            color={AppColor.C4}
-          />
-          <MaterialCommunityIcons
-            name="pinterest"
-            size={responsive(40)}
-            color={AppColor.C4}
-          />
-          <MaterialCommunityIcons
-            name="instagram"
-            size={responsive(40)}
-            color={AppColor.C4}
-          />
-        </View>
+        <MaterialCommunityIcons
+          name="whatsapp"
+          size={responsive(40)}
+          color={AppColor.C4}
+        />
+        <MaterialCommunityIcons
+          name="android-messages"
+          size={responsive(40)}
+          color={AppColor.C4}
+        />
+        <MaterialCommunityIcons
+          name="linkedin"
+          size={responsive(40)}
+          color={AppColor.C4}
+        />
+      </View>
+      <View style={styles.socialMediaHolder2}>
+        <MaterialCommunityIcons
+          name="facebook"
+          size={responsive(40)}
+          color={AppColor.C4}
+        />
+        <MaterialCommunityIcons
+          name="pinterest"
+          size={responsive(40)}
+          color={AppColor.C4}
+        />
+        <MaterialCommunityIcons
+          name="instagram"
+          size={responsive(40)}
+          color={AppColor.C4}
+        />
+      </View>
     </View>
   );
 };
@@ -169,9 +168,9 @@ const styles = StyleSheet.create({
     borderRadius: responsive(5),
     gap: responsive(10),
     alignItems: 'center',
-    top:'50%',
-    backgroundColor:AppColor.white,
-   elevation:responsive(10)
+    top: '50%',
+    backgroundColor: AppColor.white,
+    elevation: responsive(10),
   },
   socialMediaHolder2: {
     borderWidth: 2,
@@ -181,9 +180,9 @@ const styles = StyleSheet.create({
     borderRadius: responsive(5),
     gap: responsive(10),
     alignItems: 'center',
-    top:'50%',
-    right:0,
-    backgroundColor:AppColor.white,
-   elevation:responsive(10)
+    top: '50%',
+    right: 0,
+    backgroundColor: AppColor.white,
+    elevation: responsive(10),
   },
 });
