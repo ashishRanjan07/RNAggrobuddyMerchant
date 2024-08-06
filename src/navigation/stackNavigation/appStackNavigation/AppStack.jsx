@@ -5,6 +5,7 @@ import DrawerNavigation from '../../drawerNavigation/DrawerNavigation';
 import Notification from '../../../screens/appScreen/Notification';
 import FarmerProductDetails from '../../../screens/appScreen/FarmerProductDetails';
 import HireWorkerDetails from '../../../screens/appScreen/HireWorkerDetails';
+import PostDetails from '../../../screens/appScreen/PostDetails';
 
 const Stack = createNativeStackNavigator();
 
@@ -29,6 +30,11 @@ const AppStack = () => {
        <Stack.Screen
         name="Hire Worker Details"
         component={HireWorkerDetails}
+        options={{headerShown: false}}
+      />
+      <Stack.Screen
+        name="Post Details"
+        component={PostDetails}
         options={{headerShown: false}}
       />
     </Stack.Navigator>

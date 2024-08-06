@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "image": "https://picsum.photos/seed/picsum/200/100",
+    "likes": 120,
+    "title": "Fresh Organic Vegetables",
+    "description": "Locally sourced organic vegetables delivered fresh to your doorstep.",
+    "story": "At Farmer John's, we believe in the power of nature and the importance of sustainable agriculture. Our journey began over 20 years ago when we decided to leave the city life behind and move to a small farm nestled in the heart of the countryside. Since then, we've dedicated ourselves to growing the freshest, most nutrient-dense vegetables possible, using only natural fertilizers and pesticides. We're proud to say that our produce is not just food; it's a piece of our family's dedication to health and sustainability. Join us in supporting local farmers and enjoy the taste of freshness that comes straight from our fields to your kitchen.",
+    "saved": true,
+    "rating": 4.5,
+    "author": "John Doe",
+    "date": "2024-08-01",
+    "time": "10:30 AM"
+  },
+  {
+    "id": 2,
+    "image": "https://picsum.photos/seed/picsum/200/100",
+    "likes": 85,
+    "title": "Handcrafted Cheese",
+    "description": "Artisanal cheeses made with love and care using traditional methods.",
+    "story": "Cheese-making is more than just a business for us at Artisan Cheeses; it's a passion and a tradition passed down through generations. Our founder, a master cheesemaker with over four decades of experience, started the dairy with a dream to share the rich flavors and textures of authentic European cheeses with the world. Every wheel of cheese we produce is a testament to his skill and dedication, crafted with the finest ingredients and aged to perfection. Our commitment to quality and authenticity has earned us a place among the top artisanal cheese makers in the country. Come explore our range of cheeses and discover the difference that centuries-old techniques and unwavering quality can make in every bite.",
+    "saved": false,
+    "rating": 4.7,
+    "author": "Jane Smith",
+    "date": "2024-07-28",
+    "time": "05:45 PM"
+  }
+]
