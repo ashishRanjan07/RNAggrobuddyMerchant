@@ -7,5 +7,6 @@ export const AppColor = {
   green: '#265636',
   borderColor: '#93AFAC',
   black: '#000000',
-  white: '#FFFFFF'
+  white: '#FFFFFF',
+  red:'red'
 };
