@@ -11,6 +11,7 @@ import {AppColor} from '../../theme/AppColor';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import PrivacyPolicy from '../../screens/appScreen/PrivacyPolicy';
 import Help from '../../screens/appScreen/Help';
+import AboutUs from '../../screens/appScreen/AboutUs';
 
 const Drawer = createDrawerNavigator();
 
@@ -51,7 +52,7 @@ const DrawerNavigation = () => {
       />
       <Drawer.Screen
         name="About us"
-        component={SavePost}
+        component={AboutUs}
         options={{
           headerShown: false,
           drawerIcon: ({color}) => (
