@@ -10,6 +10,7 @@ import {responsive} from '../../utils/Responsive';
 import {AppColor} from '../../theme/AppColor';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import PrivacyPolicy from '../../screens/appScreen/PrivacyPolicy';
+import Help from '../../screens/appScreen/Help';
 
 const Drawer = createDrawerNavigator();
 
@@ -105,9 +106,9 @@ const DrawerNavigation = () => {
           drawerAllowFontScaling: false,
         }}
       />
-            <Drawer.Screen
+      <Drawer.Screen
         name="Help"
-        component={SavePost}
+        component={Help}
         options={{
           headerShown: false,
           drawerIcon: ({color}) => (
