@@ -21,6 +21,7 @@
     "react-native": "0.74.3",
     "react-native-device-info": "^11.1.0",
     "react-native-gesture-handler": "^2.18.0",
+    "react-native-indicators": "^0.17.0",
     "react-native-mail": "^6.1.1",
     "react-native-modal": "^13.0.1",
     "react-native-paper": "^5.12.5",
@@ -30,7 +31,8 @@
     "react-native-star-rating-widget": "^1.8.0",
     "react-native-swiper": "^1.6.0",
     "react-native-toast-message": "^2.2.0",
-    "react-native-vector-icons": "^10.1.0"
+    "react-native-vector-icons": "^10.1.0",
+    "react-native-webview": "^13.10.5"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
