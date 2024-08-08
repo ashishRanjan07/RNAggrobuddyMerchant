@@ -1,0 +1,94 @@
+[
+  {
+    "id": 1,
+    "image": "https://picsum.photos/seed/picsum/200/100",
+    "likes": 120,
+    "title": "Fresh Organic Vegetables",
+    "description": "Locally sourced organic vegetables delivered fresh to your doorstep.",
+    "story": "At Farmer John's, we believe in the power of nature and the importance of sustainable agriculture. Our journey began over 20 years ago when we decided to leave the city life behind and move to a small farm nestled in the heart of the countryside. Since then, we've dedicated ourselves to growing the freshest, most nutrient-dense vegetables possible, using only natural fertilizers and pesticides. We're proud to say that our produce is not just food; it's a piece of our family's dedication to health and sustainability. Join us in supporting local farmers and enjoy the taste of freshness that comes straight from our fields to your kitchen.",
+    "saved": true,
+    "rating": 4.5,
+    "author": "John Doe",
+    "date": "2024-08-01",
+    "time": "10:30 AM"
+  },
+  {
+    "id": 2,
+    "image": "https://picsum.photos/seed/picsum/200/100",
+    "likes": 85,
+    "title": "Handcrafted Cheese",
+    "description": "Artisanal cheeses made with love and care using traditional methods.",
+    "story": "Cheese-making is more than just a business for us at Artisan Cheeses; it's a passion and a tradition passed down through generations. Our founder, a master cheesemaker with over four decades of experience, started the dairy with a dream to share the rich flavors and textures of authentic European cheeses with the world. Every wheel of cheese we produce is a testament to his skill and dedication, crafted with the finest ingredients and aged to perfection. Our commitment to quality and authenticity has earned us a place among the top artisanal cheese makers in the country. Come explore our range of cheeses and discover the difference that centuries-old techniques and unwavering quality can make in every bite.",
+    "saved": false,
+    "rating": 4.7,
+    "author": "Jane Smith",
+    "date": "2024-07-28",
+    "time": "05:45 PM"
+  },
+
+  {
+    "id": 3,
+    "image": "https://picsum.photos/seed/picsum/300/150",
+    "likes": 150,
+    "title": "Gourmet Coffee Beans",
+    "description": "Single-origin coffee beans roasted to perfection for the ultimate coffee experience.",
+    "story": "Our journey in coffee began with a simple love for the brew. Over the years, we've traveled the world, sourcing beans from the finest coffee-growing regions. Each bag of our gourmet coffee beans tells a story of the land and people who cultivate them. We roast our beans in small batches to ensure peak flavor and freshness. Whether you prefer a bold espresso or a smooth pour-over, our selection of single-origin coffees offers something for every palate.",
+    "saved": true,
+    "rating": 4.8,
+    "author": "Alex Turner",
+    "date": "2024-08-05",
+    "time": "02:00 PM"
+  },
+  {
+    "id": 4,
+    "image": "https://picsum.photos/seed/picsum/300/150",
+    "likes": 95,
+    "title": "Eco-Friendly Cleaning Products",
+    "description": "Plant-based cleaning solutions that are safe for your family and the planet.",
+    "story": "At Green Clean, we believe that a healthy home shouldn't come at the expense of the environment. That's why we've developed a range of eco-friendly cleaning products that are tough on dirt but gentle on the Earth. Our formulas are biodegradable, free from harsh chemicals, and packaged in recyclable materials. By choosing Green Clean, you're not just getting effective cleaners; you're supporting a sustainable future.",
+    "saved": false,
+    "rating": 4.6,
+    "author": "Lily Evans",
+    "date": "2024-07-30",
+    "time": "11:15 AM"
+  },
+  {
+    "id": 5,
+    "image": "https://picsum.photos/seed/picsum/300/150",
+    "likes": 200,
+    "title": "Vegan Skincare Line",
+    "description": "Cruelty-free skincare products made with natural ingredients for healthy, glowing skin.",
+    "story": "We founded Pure Glow with a vision to offer skincare solutions that are kind to animals and the Earth. Our vegan skincare line is formulated with plant-based ingredients known for their nourishing properties. From hydrating serums to gentle cleansers, our products are designed to enhance your natural beauty without compromising your values. Join us in embracing a kinder, cleaner beauty routine.",
+    "saved": true,
+    "rating": 4.9,
+    "author": "Sophia Lin",
+    "date": "2024-08-02",
+    "time": "04:30 PM"
+  },
+  {
+    "id": 6,
+    "image": "https://picsum.photos/seed/picsum/300/150",
+    "likes": 110,
+    "title": "Artisanal Honey",
+    "description": "Raw honey sourced from local beekeepers, offering a taste of nature's sweetness.",
+    "story": "Sweet Nectar is dedicated to bringing the purest, most delicious honey directly from the hive to your table. Our artisanal honey is raw and unprocessed, preserving the natural enzymes and antioxidants that make it a superfood. Each jar tells the story of the flowers visited by the bees and the hard work of our local beekeepers. Enjoy the rich flavors and health benefits of nature's sweet gift.",
+    "saved": false,
+    "rating": 4.7,
+    "author": "Oliver Brown",
+    "date": "2024-07-29",
+    "time": "09:00 AM"
+  },
+  {
+    "id": 7,
+    "image": "https://picsum.photos/seed/picsum/300/150",
+    "likes": 180,
+    "title": "Sustainable Apparel",
+    "description": "Fashion-forward clothing made from eco-friendly materials.",
+    "story": "At Eco Threads, we're redefining fashion with sustainability in mind. Our apparel is crafted from recycled fabrics and organic cotton, reducing our carbon footprint and promoting ethical production practices. Each piece is designed to be timeless yet trendy, ensuring you can look good and feel good about your impact on the planet. Join the movement towards conscious fashion with Eco Threads.",
+    "saved": true,
+    "rating": 4.5,
+    "author": "Mia Davis",
+    "date": "2024-08-03",
+    "time": "06:45 PM"
+  }
+]
