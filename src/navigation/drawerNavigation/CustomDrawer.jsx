@@ -35,12 +35,12 @@ const CustomDrawer = props => {
 
       <DrawerItemList {...props} />
       <View style={styles.socialMediaHolder}>
-      <MaterialCommunityIcons
+        <MaterialCommunityIcons
           name="whatsapp"
           size={responsive(40)}
           color={AppColor.C4}
         />
-         <MaterialCommunityIcons
+        <MaterialCommunityIcons
           name="linkedin"
           size={responsive(40)}
           color={AppColor.C4}
@@ -122,7 +122,7 @@ const styles = StyleSheet.create({
     width: '100%',
     backgroundColor: AppColor.white,
     elevation: responsive(10),
-    flexDirection:'row',
-    justifyContent:'space-evenly'
+    flexDirection: 'row',
+    justifyContent: 'space-evenly',
   },
 });
