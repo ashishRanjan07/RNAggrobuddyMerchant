@@ -40,6 +40,7 @@ const ShareApp = () => {
           });
         } else {
           console.log('Contacts permission denied');
+          setContacts(null);
         }
       } catch (err) {
         console.warn(err);
@@ -50,17 +51,12 @@ const ShareApp = () => {
   }, []);
 
   const handleInvite = item => {
-    // Example message
     const message = "Hello! I'm inviting you to our app.";
-
-    // Construct the WhatsApp URL
     const phoneNumber = item.phoneNumbers[0].number.replace(/\D/g, '');
     console.log(phoneNumber, 'Line 58');
     const url = `whatsapp://send?text=${encodeURIComponent(
       message,
     )}&phone=+91${phoneNumber}`;
-
-    // Attempt to open the URL
     Linking.canOpenURL(url)
       .then(supported => {
         if (supported) {

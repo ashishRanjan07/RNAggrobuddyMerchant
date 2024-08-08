@@ -1,4 +1,4 @@
-import {StyleSheet, Text, View} from 'react-native';
+import {StyleSheet} from 'react-native';
 import React from 'react';
 
 import {createDrawerNavigator} from '@react-navigation/drawer';
@@ -13,6 +13,7 @@ import PrivacyPolicy from '../../screens/appScreen/PrivacyPolicy';
 import Help from '../../screens/appScreen/Help';
 import AboutUs from '../../screens/appScreen/AboutUs';
 import ShareApp from '../../screens/appScreen/ShareApp';
+import Setting from '../../screens/appScreen/Setting';
 
 const Drawer = createDrawerNavigator();
 
@@ -93,13 +94,13 @@ const DrawerNavigation = () => {
       />
 
       <Drawer.Screen
-        name="Change Theme"
-        component={SavePost}
+        name="Setting"
+        component={Setting}
         options={{
           headerShown: false,
           drawerIcon: ({color}) => (
             <MaterialIcons
-              name="dark-mode"
+              name="settings-suggest"
               size={responsive(30)}
               color={AppColor.C4}
             />
