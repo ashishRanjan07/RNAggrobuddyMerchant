@@ -1,4 +1,4 @@
-import {Image, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
+import {Image, SafeAreaView, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import React from 'react';
 import {ScrollView} from 'react-native-gesture-handler';
 import {AppColor} from '../../theme/AppColor';
@@ -11,6 +11,7 @@ import ListItem from '../../components/ListItem';
 const Profile = () => {
   return (
     <>
+    <SafeAreaView/>
       <CustomHeader title={'User Profile'} />
       <ScrollView style={styles.main} showsVerticalScrollIndicator={false}>
         <View style={styles.profileSectionHolder}>

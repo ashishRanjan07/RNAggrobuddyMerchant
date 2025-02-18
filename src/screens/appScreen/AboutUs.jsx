@@ -1,4 +1,4 @@
-import {StyleSheet, Text, View} from 'react-native';
+import {SafeAreaView, StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 import {AppColor} from '../../theme/AppColor';
 import CustomHeader from '../../components/CustomHeader';
@@ -9,6 +9,7 @@ import {ScrollView} from 'react-native';
 const AboutUs = () => {
   return (
     <View style={styles.main}>
+    <SafeAreaView/>
       <CustomHeader title={'About Us'} />
       <ScrollView
         style={styles.textViewHolder}

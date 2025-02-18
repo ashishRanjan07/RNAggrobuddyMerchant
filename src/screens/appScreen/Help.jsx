@@ -1,4 +1,4 @@
-import {Alert, ScrollView, StyleSheet, Text, TextInput, View} from 'react-native';
+import {Alert, SafeAreaView, ScrollView, StyleSheet, Text, TextInput, View} from 'react-native';
 import React, {useState} from 'react';
 import CustomHeader from '../../components/CustomHeader';
 import {AppColor} from '../../theme/AppColor';
@@ -22,6 +22,7 @@ const Help = () => {
   }
   return (
     <View style={styles.main}>
+    <SafeAreaView/>
       <CustomHeader title={'Help'} />
       <ScrollView>
         <View style={styles.textHolder}>

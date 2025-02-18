@@ -1,5 +1,6 @@
 import {
   Image,
+  SafeAreaView,
   ScrollView,
   StyleSheet,
   Text,
@@ -20,6 +21,7 @@ const PostDetails = ({route}) => {
 
   return (
     <View style={styles.main}>
+    <SafeAreaView/>
       <AppHeader title={item.title} />
       <ScrollView style={styles.contentHolder}>
         <View>

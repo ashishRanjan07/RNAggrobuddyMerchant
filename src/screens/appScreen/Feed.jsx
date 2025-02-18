@@ -1,6 +1,7 @@
 import {
   FlatList,
   Image,
+  SafeAreaView,
   StatusBar,
   StyleSheet,
   Text,
@@ -63,6 +64,7 @@ const Feed = () => {
   };
   return (
     <View style={styles.main}>
+     <SafeAreaView/>
       <StatusBar
         barStyle={'dark-content'}
         backgroundColor={AppColor.background}

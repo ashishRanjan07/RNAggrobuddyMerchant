@@ -1,4 +1,5 @@
 import {
+  SafeAreaView,
   StatusBar,
   StyleSheet,
   Text,
@@ -14,6 +15,7 @@ import CustomHeader from '../../components/CustomHeader';
 const Home = () => {
   return (
     <View style={styles.main}>
+      <SafeAreaView/>
       <StatusBar
         barStyle={'dark-content'}
         backgroundColor={AppColor.background}

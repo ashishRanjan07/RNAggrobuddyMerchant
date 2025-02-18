@@ -6,6 +6,7 @@ import {
   Image,
   TouchableOpacity,
   Alert,
+  SafeAreaView,
 } from 'react-native';
 import React, {useState} from 'react';
 import {AppColor} from '../../theme/AppColor';
@@ -37,6 +38,7 @@ const FarmerProductDetails = ({route}) => {
 
   return (
     <View style={styles.main}>
+    <SafeAreaView/>
       <AppHeader title={'Product Details'} />
       {/* Content Data */}
       <ScrollView>

@@ -2,6 +2,7 @@ import {
     Alert,
   Linking,
   Modal,
+  SafeAreaView,
   ScrollView,
   StatusBar,
   StyleSheet,
@@ -64,6 +65,7 @@ const HireWorkerDetails = ({route}) => {
   };
   return (
     <View style={styles.main}>
+      <SafeAreaView/>
       <StatusBar
         barStyle={'dark-content'}
         backgroundColor={AppColor.background}

@@ -2,6 +2,7 @@ import {
   FlatList,
   Linking,
   PermissionsAndroid,
+  SafeAreaView,
   StyleSheet,
   Text,
   TouchableOpacity,
@@ -93,6 +94,7 @@ const ShareApp = () => {
   };
   return (
     <View style={styles.main}>
+    <SafeAreaView/>
       <CustomHeader title={'Share App'} />
       {/* <View style={styles.animationHolder}>
         <LottieView

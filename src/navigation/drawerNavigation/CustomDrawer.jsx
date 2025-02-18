@@ -1,4 +1,4 @@
-import {Image, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
+import {Image, SafeAreaView, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import React from 'react';
 import {DrawerItemList} from '@react-navigation/drawer';
 import {AppColor} from '../../theme/AppColor';
@@ -10,6 +10,7 @@ import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityI
 const CustomDrawer = props => {
   return (
     <View style={styles.drawerContent}>
+    <SafeAreaView/>
       {/* Upper Head */}
       <View style={styles.upperSection}>
         <Image

@@ -1,4 +1,5 @@
 import {
+  SafeAreaView,
   ScrollView,
   StatusBar,
   StyleSheet,
@@ -31,6 +32,7 @@ const Registration = () => {
   };
   return (
     <ScrollView style={styles.main}>
+      <SafeAreaView/>
       <StatusBar
         barStyle={'dark-content'}
         backgroundColor={AppColor.background}

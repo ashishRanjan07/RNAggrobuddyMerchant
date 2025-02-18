@@ -1,4 +1,4 @@
-import {StyleSheet, View} from 'react-native';
+import {SafeAreaView, StyleSheet, View} from 'react-native';
 import React, {useState} from 'react';
 import {AppColor} from '../../theme/AppColor';
 import CustomHeader from '../../components/CustomHeader';
@@ -12,6 +12,7 @@ const Setting = () => {
 
   return (
     <View style={styles.main}>
+    <SafeAreaView/>
       <CustomHeader title={'Settings'} />
       {/* Notification Center */}
       <Switcher

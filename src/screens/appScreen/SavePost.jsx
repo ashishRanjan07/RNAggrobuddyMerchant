@@ -1,6 +1,7 @@
 import {
   FlatList,
   ImageBackground,
+  SafeAreaView,
   StyleSheet,
   Text,
   TouchableOpacity,
@@ -45,6 +46,7 @@ const SavePost = () => {
 
   return (
     <View style={styles.main}>
+    <SafeAreaView/>
       <CustomHeader title={'Save Posts'} />
       <View style={styles.flatListHolder}>
         <FlatList

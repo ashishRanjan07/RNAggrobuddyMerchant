@@ -146,6 +146,7 @@ import {
   View,
   KeyboardAvoidingView,
   Platform,
+  SafeAreaView,
 } from 'react-native';
 import {useNavigation} from '@react-navigation/native';
 import {AppColor} from '../../theme/AppColor';
@@ -201,6 +202,7 @@ const Login = () => {
     <KeyboardAvoidingView
       style={styles.container}
       behavior={Platform.OS === 'ios' ? 'padding' : 'height'}>
+        <SafeAreaView/>
       <StatusBar
         barStyle={'dark-content'}
         backgroundColor={AppColor.background}

@@ -5,6 +5,7 @@ import {
   View,
   TouchableOpacity,
   KeyboardAvoidingView,
+  SafeAreaView,
 } from 'react-native';
 import React, {useState} from 'react';
 import {AppColor} from '../../theme/AppColor';
@@ -124,6 +125,7 @@ const ForgetPassword = () => {
       style={styles.container}
       behavior={Platform.OS === 'ios' ? 'padding' : 'height'}>
       <View style={styles.main}>
+        <SafeAreaView/>
         <StatusBar
           barStyle={'dark-content'}
           backgroundColor={AppColor.background}

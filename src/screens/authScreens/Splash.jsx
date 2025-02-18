@@ -1,4 +1,4 @@
-import {Image, StatusBar, StyleSheet, Text, View} from 'react-native';
+import {Image, SafeAreaView, StatusBar, StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 import {AppColor} from '../../theme/AppColor';
 import {ImagePath} from '../../utils/ImagePath';
@@ -20,6 +20,7 @@ const handleButtonLogin  = () => {
   
   return (
     <View style={styles.main}>
+      <SafeAreaView/>
       <StatusBar backgroundColor={AppColor.background} barStyle={'dark-content'} />
       <Image
         source={ImagePath.logo}
